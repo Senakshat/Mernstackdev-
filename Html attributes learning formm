@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Modern website</title>
+    <style>
+      div{
+        height:100px;
+        width:200px;
+        margin:40px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+      }
+      #div1{
+        background-color: rgb(120, 20, 100);
+      }
+      #div2{
+        background-color: #9E6240;
+      }
+      #subdiv{
+        height: 95px;
+        width: 190px;
+        margin: 5px;
+        background-color:#DEA47E ;
+      }
+      .style1{
+        border: 2px solid #CD4631;
+        padding: 10px;
+      }
+      p{
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="style1">
+    <p> First Name <input type="text" value="your name"><span> Last name <input type="text" value="Your last name"></span></p>
+    <p>Gender :-> Male<input type="checkbox" checked>Female <input type="checkbox" checked></p>
+    <div class="style1" id="div2"><div id="subdiv">
+      <p>You are a Gamer</p>
+      </div></div>
+    <div class="style1" id ="div2">
+      <div id="subdiv">
+      <p>You are an Artist</p>
+      </div>
+    </div>
+    
+    </form>
+
+  </body>
+</html>
