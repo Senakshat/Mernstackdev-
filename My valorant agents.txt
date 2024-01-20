@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Valorant Agents</title>
+    <style>
+      .main{
+        display:flex;
+        background-color:#4D455D;
+      }
+      #Divs {
+        width:120px;
+        height:140px;
+        margin:20px;
+        align-items: center;
+        justify-content: center;
+        background-color:#7DB9B6;
+        border:solid #3C0753;
+      }
+      .agents img{
+        width:100%;
+        height:100%;
+        object-fit: contain;
+      }
+      .textstylers {
+        width:max-width:100%;
+        height:20px;
+        display:flex;
+        justify-content: center;
+      }
+      #textstyler{
+        font-size:10px;
+        color: #E96479;
+        font-style:Slab;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="textstylers"><p id="textstyler"></p>My Favourite Valorant agents</p></div>
+    
+    
+    <div class="main">
+      <div class="agents" id="Divs">
+        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf0200e1821b5b39f/5eb7cdc144bf8261a04d87f9/V_AGENTS_587x900_Phx.png">
+        <p id="textstyler">Pheonix<a href="https://playvalorant.com/en-gb/agents/phoenix/">More info</a></p>
+      </div>
+      <div class="agents" id="Divs">
+        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6577b1f58530e6b2/5eb7cdc121a5027d77420208/V_AGENTS_587x900_Reyna.png"></img>
+        <p id="textstyler">Reyna<a href="https://playvalorant.com/en-gb/agents/reyna/">More info</a></p>
+      </div>
+      <div class="agents" id="Divs">
+        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4080f8efb365751/5ff5660bb47cdf7fc7d6c3dc/V_AGENTS_587x900_yoru.png"></img>
+        <p id="textstyler">Yoru<a href="https://playvalorant.com/en-gb/agents/yoru/">More info</a></p>
+      </div>
+    </div>
+    <div class="main">
+      <div class="agents" id="Divs">
+        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt158572ec37653cf3/5eb7cdc19df5cf37047009d1/V_AGENTS_587x900_Cypher.png"></img>
+        <p id="textstyler">Cypher<a href="https://playvalorant.com/en-gb/agents/cypher/">More info</a></p>
+        
+      </div>
+      <div class="agents" id="Divs">
+        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png"></img>
+        <p id="textstyler">Viper<a href="https://playvalorant.com/en-gb/agents/viper/">More info</a></p>
+      </div>
+      <div class="agents" id="Divs">
+        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png"></img>
+        <p id="textstyler">Sage<a href="https://playvalorant.com/en-gb/agents/sage/">More info</a></p>
+      </div>
+    </div>
+      
+  </body>
+</html>
